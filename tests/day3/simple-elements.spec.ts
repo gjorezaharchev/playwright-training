@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-test.describe("Test Suite for Authentication tests", ()=>{
+test.describe("Test Suite for Authentication tests2", ()=>{
 
 test('test', async ({ page }) => {
   //await page.locator('body').click();
