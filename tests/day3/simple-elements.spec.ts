@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 test.describe("Test Suite for Authentication tests2", ()=>{
 
-test('test', async ({ page }) => {
+test('test6', async ({ page }) => {
   //await page.locator('body').click();
   await page.goto('https://demoqa.com/text-box');
   await page.getByPlaceholder('Full Name').focus();
