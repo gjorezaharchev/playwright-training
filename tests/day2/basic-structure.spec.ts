@@ -34,7 +34,7 @@ test('test fail', async ({ page }) => {
   });
 
 
-  test('test', async ({ page }) => {
+  test('testxx', async ({ page }) => {
     //await page.locator('body').click();
     await page.goto('/');
     //await page.locator('[data-test="username"]').click();
