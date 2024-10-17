@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 test.describe("Test Suite for Authentication tests", ()=>{
 
-test('test', async ({ page }) => {
+test('test some x', async ({ page }) => {
   //await page.locator('body').click();
   await page.goto('/');
   //await page.locator('[data-test="username"]').click();
@@ -34,7 +34,7 @@ test('test fail', async ({ page }) => {
   });
 
 
-  test('test', async ({ page }) => {
+  test('testxx', async ({ page }) => {
     //await page.locator('body').click();
     await page.goto('/');
     //await page.locator('[data-test="username"]').click();
