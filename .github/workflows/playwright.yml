@@ -15,8 +15,13 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: npm ci
+
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
+    - name: Install dotenv
+      run: npm install dotenv --save
+    - name: setup prod environment
+      run: $env:ENV="stage"
     - name: Run Playwright tests
       run: npx playwright test
     - uses: actions/upload-artifact@v4
